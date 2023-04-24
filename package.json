@@ -1,0 +1,19 @@
+{
+  "name": "project-sdk-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@klever/sdk-node": "^1.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
